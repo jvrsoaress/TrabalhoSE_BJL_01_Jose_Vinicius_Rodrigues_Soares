@@ -56,11 +56,11 @@ com o RP2040.
 
 ## 🔧 Fluxograma Geral:
 
-•	Menu Inicial: Exibe uma borda retangular ao redor do display, além do título "STARDOG" do jogo, e as opções "JOGAR: A" e "PONTOS: B". O jogador pode usar os botões A para iniciar o jogo ou B para ver pontuação máxima.
-•	Modo Jogo: A nave (um quadrado 8x8 preenchido) é controlada pelo joystick, movendo-se proporcionalmente no display. O jogador coleta alvos (um quadrado 8x8 não preenchido/”em branco”), ganhando pontos, e evita obstáculos (um quadrado 10x10 preenchido) que se movem da direita pra esquerda com deslocamento vertical aleatório. Ademais, a colisão da nave com o alvo acende o LED verde e exibe "V" na matriz de LED, além de tocar um som no buzzer. De maneira análoga, a colisão da nave com o obstáculo acende o LED vermelho, exibindo "X" na matriz de LED, e toca um som no buzzer pausando o jogo. Por fim, o botão A pausa/continua.
-•	Modo Pontos: Exibe a pontuação máxima que o jogador conseguir, acende LED azul, e mostra padrão uma "SETA" inclinada na matriz de LED. Caso o Botão B seja apertado, volta ao menu.
-•	Game Over: Caso o joystick seja apertado, aciona o Game Over, que faz com que seja exibido uma mensagem de "GAME OVER" no display por 2 segundos, desligando o sistema. Por fim, caso seja apertado mais uma vez o joystick, o sistema religa novamente voltando ao menu inicial.
-•	Pressão longa por 2.5s nos botões A ou B retorna ao menu. Mensagens de depuração são enviadas via UART.
+- **Menu Inicial:** Exibe uma borda retangular ao redor do display, além do título "STARDOG" do jogo, e as opções "JOGAR: A" e "PONTOS: B". O jogador pode usar os botões A para iniciar o jogo ou B para ver pontuação máxima.
+- **Modo Jogo:** A nave (um quadrado 8x8 preenchido) é controlada pelo joystick, movendo-se proporcionalmente no display. O jogador coleta alvos (um quadrado 8x8 não preenchido/”em branco”), ganhando pontos, e evita obstáculos (um quadrado 10x10 preenchido) que se movem da direita pra esquerda com deslocamento vertical aleatório. Ademais, a colisão da nave com o alvo acende o LED verde e exibe "V" na matriz de LED, além de tocar um som no buzzer. De maneira análoga, a colisão da nave com o obstáculo acende o LED vermelho, exibindo "X" na matriz de LED, e toca um som no buzzer pausando o jogo. Por fim, o botão A pausa/continua.
+- **Modo Pontos:** Exibe a pontuação máxima que o jogador conseguir, acende LED azul, e mostra padrão uma "SETA" inclinada na matriz de LED. Caso o Botão B seja apertado, volta ao menu.
+- **Game Over:** Caso o joystick seja apertado, aciona o Game Over, que faz com que seja exibido uma mensagem de "GAME OVER" no display por 2 segundos, desligando o sistema. Por fim, caso seja apertado mais uma vez o joystick, o sistema religa novamente voltando ao menu inicial.
+- Pressão longa por 2.5s nos botões A ou B retorna ao menu, e as mensagens de depuração são enviadas via UART.
 
 
 ## 🚀 Passos para Compilação e Upload  
