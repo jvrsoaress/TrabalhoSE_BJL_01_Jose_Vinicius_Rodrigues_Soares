@@ -89,7 +89,7 @@ com o RP2040.
 
 ## 🎥 Demonstração: 
 
-- Para ver o funcionamento do projeto, acesse o vídeo de demonstração gravado por José Vinicius em: [[https://youtu.be/YmlDdGBSoDU](https://youtu.be/nGrDLF12td4](https://youtu.be/sjoca_FrEEM))
+- Para ver o funcionamento do projeto, acesse o vídeo de demonstração gravado por José Vinicius em: https://youtu.be/sjoca_FrEEM
 
 ## 💻 Desenvolvedor
  
