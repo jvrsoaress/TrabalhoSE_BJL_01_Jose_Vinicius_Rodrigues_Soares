@@ -1,5 +1,5 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=02A6F4&height=120&section=header"/>
-<h1 align="center">Embarcatech - Projeto Integrado - BitDogLab. </h1>
+<h1 align="center">Embarcatech - Projeto Integrado - BitDogLab </h1>
 
 ## Objetivo do Projeto
 
@@ -89,7 +89,7 @@ com o RP2040.
 
 ## 🎥 Demonstração: 
 
-- Para ver o funcionamento do projeto, acesse o vídeo de demonstração gravado por José Vinicius em: https://youtu.be/sjoca_FrEEM
+- Para ver o funcionamento do projeto, acesse o vídeo de demonstração gravado por José Vinicius em: https://youtu.be/UlLR2-UypfE
 
 ## 💻 Desenvolvedor
  
